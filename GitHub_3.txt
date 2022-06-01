@@ -16,9 +16,9 @@
  git push
 
  7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT:
- vim new.json
+ vim new.txt
  Нажимаем i,для редактирования файла
- Фамилия имя отчество: Юдина Елена ВикторовнаВозраст.
+ Фамилия имя отчество: Юдина Елена Викторовна.
  Возраст:37.
  Количество домашних животных:1.
  Будущая желаемая зарплата:30000.
@@ -69,7 +69,7 @@ touch skills.txt
  нажимаем Esc, :wq
 
  12. Сделать коммит в одну строку:
- git commit -am"add information about preferences and skills"
+ git commit -am"information about preferences and skills"
 
 
  13. Отправить сразу 2 файла на внешний репозиторий:
@@ -82,7 +82,7 @@ touch skills.txt
  Commit changes, GitBash : git fetch->git pull
 
  16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT:
-GitHub-> bug_report.json
+GitHub-> bug_report.txt
  Bug_report.
   Bug_id: 21.
   Title. When changing the desktop grid from 4x6 to 5x6, the widget is not displayed.
