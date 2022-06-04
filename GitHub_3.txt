@@ -1,5 +1,5 @@
  1. Создать внешний репозиторий c названием TXT:
- GitHub > Repos -> New -> TXT
+ GitHub > Repositories -> New -> TXT
 
  2. Клонировать репозиторий TXT на локальный компьютер:
   git clone github.com/elvyudina/TXT.git
