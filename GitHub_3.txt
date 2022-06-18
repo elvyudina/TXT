@@ -5,6 +5,7 @@
   git clone github.com/elvyudina/TXT.git
 
  3. ¬нутри локального TXT создать файл Уnew.txtФ:
+ cd TXT
  touch new.txt
 
  4. ƒобавить файл под гит:
@@ -69,7 +70,8 @@ touch skills.txt
  нажимаем Esc, :wq
 
  12. —делать коммит в одну строку:
- git commit -am"information about preferences and skills"
+ git add . 
+ git commit -m"information about preferences and skills"
 
 
  13. ќтправить сразу 2 файла на внешний репозиторий:
